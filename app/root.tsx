@@ -82,12 +82,7 @@ export default function App() {
 								placeholder="Search"
 								type="search"
 							/>
-							<div
-								id="search-spinner"
-								aria-hidden
-								hidden={true}
-								hidden={!searching}
-							/>
+							<div aria-hidden hidden={!searching} id="search-spinner" />
 						</Form>
 						<Form method="post">
 							<button type="submit">New</button>
